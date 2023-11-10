@@ -1,0 +1,46 @@
+.quiz {
+  padding: 40px;
+  max-width: 650px;
+  background: #fff;
+  border-radius: 15px;
+}
+.quiz__header {
+  margin-bottom: 30px;
+  width: 100%;
+  height: 15px;
+  background: #d4d4d4;
+  border-radius: 40px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.quiz__header__app {
+  width: 45%;
+  height: 20px;
+  background: #01a036;
+  transition: 0.5s;
+}
+.quiz__question__title {
+  font-family: "Ubuntu";
+  font-size: 30px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.quiz__options {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.quiz__options h3 {
+  padding: 20px;
+  border: 2px solid #888;
+  border-radius: 20px;
+  font-family: "Ubuntu";
+  font-size: 18px;
+  font-weight: 700;
+  color: #040404;
+  transition: 0.3s;
+}
